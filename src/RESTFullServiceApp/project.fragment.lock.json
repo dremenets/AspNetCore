@@ -1,0 +1,41 @@
+{
+  "version": 2,
+  "exports": {
+    "DAL.EF6/1.0.0": {
+      "type": "project",
+      "framework": ".NETFramework,Version=v4.6",
+      "compile": {
+        "bin/Debug/DAL.EF6.dll": {}
+      },
+      "runtime": {
+        "../packages/EntityFramework.6.1.3/lib/net45/EntityFramework.SqlServer.dll": {},
+        "../packages/EntityFramework.6.1.3/lib/net45/EntityFramework.dll": {},
+        "bin/Debug/DAL.EF6.dll": {}
+      },
+      "contentFiles": {
+        "bin/Debug/DAL.EF6.pdb": {
+          "buildAction": "None",
+          "codeLanguage": "any",
+          "copyToOutput": true
+        }
+      }
+    },
+    "DAL.Interfaces/1.0.0": {
+      "type": "project",
+      "framework": ".NETFramework,Version=v4.6",
+      "compile": {
+        "bin/Debug/DAL.Interfaces.dll": {}
+      },
+      "runtime": {
+        "bin/Debug/DAL.Interfaces.dll": {}
+      },
+      "contentFiles": {
+        "bin/Debug/DAL.Interfaces.pdb": {
+          "buildAction": "None",
+          "codeLanguage": "any",
+          "copyToOutput": true
+        }
+      }
+    }
+  }
+}
